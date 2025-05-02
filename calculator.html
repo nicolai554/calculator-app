@@ -10,7 +10,7 @@
     <div class="container" align="center">
         <h1>Calculator</h1>
         <form name="forms">
-            <div class="calc">
+            <div class="calc" id="calculator">
                 <input type="text" id="answer" name="screen"> <br>
                 <input type="button" value="7" onclick="forms.screen.value+='7'">
                 <input type="button" value="8" onclick="forms.screen.value+='8'">
@@ -37,6 +37,10 @@
                 <input type="button" value="=" onclick="forms.screen.value= eval(forms.screen.value)"> <br>
             </div>
         </form>
+
+        <button id="theme-toggle" class="theme-button">Try the Purple Theme</button>
+
     </div>
+    <script src="js/calculator.js"></script>
 </body>
 </html>

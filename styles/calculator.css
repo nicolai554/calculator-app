@@ -40,3 +40,65 @@ input{
     border: 0px solid;
 }
 
+.calc input[type="button"] {
+    font-size: 1.5em; 
+    width: 65px;
+    height: 55px;
+    color: #fff;
+    background: #6f6f6f;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+.calc input[type="button"]:hover {
+    background: #5a5a5a; 
+}
+
+.calc input[type="button"]:active {
+    background: #4a4a4a;
+}
+
+
+.calc.theme-purple {
+    background: #8e44ad; /* Purple background */
+}
+
+.calc.theme-purple #answer {
+    background: #ffffff; 
+    color: #333; 
+    border: 1px solid #d8bfd8; 
+}
+
+.calc.theme-purple input[type="button"] {
+    background: #5e3370; /* Darker purple buttons */
+    color: #ffffff; 
+}
+
+.calc.theme-purple input[type="button"]:hover {
+    background: #7b4a91; /* Medium purple on hover */
+}
+
+.calc.theme-purple input[type="button"]:active {
+    background: #8e5aa2; /* Lighter medium purple on active */
+}
+
+
+.theme-button {
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.theme-button:hover {
+    background-color: #ddd;
+}
+
+
+
