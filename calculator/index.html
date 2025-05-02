@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterfall SDLC Diagram (Pure CSS, No SVG)</title>
+    <link rel="stylesheet" href="styles/waterfall.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Waterfall SDLC Model</h1>
+
+    <div class="waterfall-container">
+
+        <div id="requirements" class="waterfall-stage">
+            <div class="stage-header">
+                <h2>1. Requirements Analysis</h2>
+                <span class="indicator">▼</span>
+            </div>
+            <div class="stage-details">
+                <p>Gathering and documenting all user, system, and functional requirements. Defining the project scope, objectives, and constraints. Output: Requirements Specification Document.</p>
+            </div>
+        </div>
+
+        <div id="design" class="waterfall-stage">
+             <div class="stage-header">
+                <h2>2. System Design</h2>
+                <span class="indicator">▼</span>
+            </div>
+             <div class="stage-details">
+                <p>Defining the system architecture, hardware/software requirements, database design, module interfaces, and data structures based on the analyzed requirements. Output: Design Documents (High-level & Low-level).</p>
+            </div>
+        </div>
+
+        <div id="implementation" class="waterfall-stage">
+             <div class="stage-header">
+                <h2>3. Implementation (Coding)</h2>
+                <span class="indicator">▼</span>
+            </div>
+             <div class="stage-details">
+                <p>Writing the actual code based on the design specifications. Translating the design into a machine-readable form. Unit testing is often performed by developers here. Output: Source Code, Executables.</p>
+            </div>
+        </div>
+
+        <div id="testing" class="waterfall-stage">
+             <div class="stage-header">
+                <h2>4. Testing (Verification)</h2>
+                <span class="indicator">▼</span>
+            </div>
+             <div class="stage-details">
+                <p>Integrating different modules and testing the entire system for defects and failures. Verifying that the software meets the specified requirements. Includes integration testing, system testing, acceptance testing. Output: Test Reports, Bug Fixes.</p>
+            </div>
+        </div>
+
+        <div id="deployment" class="waterfall-stage">
+             <div class="stage-header">
+                <h2>5. Deployment (Installation)</h2>
+                <span class="indicator">▼</span>
+            </div>
+             <div class="stage-details">
+                <p>Installing the tested software onto the production environment or releasing it to the customer. Making the system available for use. Output: Operational System.</p>
+            </div>
+        </div>
+
+        <div id="maintenance" class="waterfall-stage">
+             <div class="stage-header">
+                <h2>6. Maintenance</h2>
+                <span class="indicator">▼</span>
+            </div>
+             <div class="stage-details">
+                <p>Making modifications after deployment to fix issues (corrective), adapt to environmental changes (adaptive), or add new features (perfective). This is often the longest phase. Output: Updated System Versions, Patches.</p>
+            </div>
+        </div>
+
+    </div>
+
+</div> <div class="nav-button-container">
+    <a href="calculator.html" class="nav-button">Go to Calculator App</a>
+</div>
+    <script src="js/waterfall.js" defer></script>
+
+</body>
+</html>
